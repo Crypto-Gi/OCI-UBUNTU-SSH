@@ -24,3 +24,9 @@ sudo nano /etc/ssh/sshd_config
 PubkeyAuthentication yes
 AuthenticationMethods publickey,password
 ```
+Make sure you have correct keys in authorized_keys file.
+
+```bash
+cat .ssh/authorized_keys 
+```
+
